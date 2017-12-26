@@ -1,0 +1,26 @@
+{
+  "name": "toothrot-website",
+  "version": "1.0.0",
+  "description": "Sources for the official toothrot website, toothrot.one",
+  "main": "index.js",
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toothrot-if/toothrot-website.git"
+  },
+  "author": "J. Steinbeck",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/toothrot-if/toothrot-website/issues"
+  },
+  "homepage": "https://github.com/toothrot-if/toothrot-website#readme",
+  "devDependencies": {
+    "toothrot-allthedocs": "^1.0.0"
+  }
+}
