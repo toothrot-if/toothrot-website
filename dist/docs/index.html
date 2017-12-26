@@ -30,23 +30,29 @@
             
             h1 {
                 margin: 0;
+                text-shadow: 2px 2px 2px black;
             }
             
             a, a:visited {
                 color: orange;
+                text-transform: uppercase;
+                margin-left: 10px;
+                margin-right: 10px;
+                font-weight: bold;
             }
             
             .logo {
                 display: block;
                 margin: auto;
                 max-width: 100%;
+                animation: heartbeat 1.5s infinite;
             }
             
             .teaser {
                 position: absolute;
                 left: 50%;
                 top: 50%;
-                transform: translate(-50%, -50%);
+                transform: translate(-50%, -55%);
                 text-align: center;
             }
             
@@ -66,6 +72,27 @@
                 right: 0;
                 padding: 10px;
                 text-align: center;
+            }
+            
+            @keyframes heartbeat {
+                0% {
+                    transform: scale(0.95);
+                }
+                20% {
+                    transform: scale(1);
+                }
+                40% {
+                    transform: scale(0.95);
+                }
+                60% {
+                    transform: scale(1);
+                }
+                80% {
+                    transform: scale(0.95);
+                }
+                100% {
+                    transform: scale(0.95);
+                }
             }
             
         </style>
